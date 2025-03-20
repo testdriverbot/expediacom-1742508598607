@@ -1,0 +1,21 @@
+version: 4.2.20
+session: 67dc94b9be2c5cc56e5e0614
+steps:
+  - prompt: Click on the language selection option.
+    commands:
+      - command: hover-text
+        text: USD
+        description: language selection option near the top right of the header
+        action: click
+  - prompt: Choose a different language from the list.
+    commands:
+      - command: hover-text
+        text: Language
+        description: language dropdown in the display settings dialog
+        action: click
+  - prompt: Choose a different language from the list.
+    commands:
+      - command: hover-text
+        text: Español
+        description: Spanish language option in the dropdown
+        action: click
