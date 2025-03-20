@@ -1,0 +1,9 @@
+version: 4.2.20
+session: 67dc94babe2c5cc56e5e0616
+steps:
+  - prompt: Click on the "Flights" tab.
+    commands:
+      - command: hover-text
+        text: Flights
+        description: flights tab in the navigation bar
+        action: click
