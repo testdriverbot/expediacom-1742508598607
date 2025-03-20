@@ -1,0 +1,9 @@
+version: 4.2.20
+session: 67dc94bbfa8f04aa4cd85df3
+steps:
+  - prompt: Click on the "Sign in" button.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: sign in button in the top right corner of the webpage
+        action: click
